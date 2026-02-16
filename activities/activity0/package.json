@@ -1,5 +1,19 @@
 {
+  "name": "activity0",
+  "version": "1.0.0",
+  "description": "- This activity involves installing the following tools:\r     - Express: Lightweight web framework for Node.js that makes building servers and APIs easier.\r     - NodeJS - Allows JavaScript to run on your computer or server, so you can build backend applications.\r     - TypeScript: Adds types to JavaScript.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "typescript": "^5.9.3"
   }
 }
