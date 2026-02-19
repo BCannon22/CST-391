@@ -8,18 +8,57 @@
     
     These will be used to execute a simple Hello World RESTful API.
 
+## Linux Installation
+```
+sudo apt install snapd
+snap install node 
+sudo snap install
+```
+
 ## Node and NPM versions
-![NodeJS Verification](images\Nodejs.png)
+![NodeJS Verification](Nodejs.png)
 
 ## NodeJS "Hello World" Application
-![Hello World](images\helloworld.png)
+- Following command was executed for Hello World application
+```
+cd hello
+gedit app.js
+node app.js
+```
+
+![Hello World](helloworld.png)
 
 ## Express "Hello Express" Application
-![Hello World Serv](images\helloworldserv.png)
+- Following commands were executed for Hello Express
 
-![NodeMonitor](images\NodeMonitor.png)
+```
+cd helloex
+npm init
+sudo npm install express
+node app.js
+sudo npm install -g nodemon
+sudo nodemon app.js
+```
+![Hello World Serv](helloworldserv.png)
+
+![NodeMonitor](NodeMonitor.png)
 
 ## Node.js with TypeScript
+```
+mkdir activity0
+cd activity0/
+sudo npm init
+sudo npm i express
+sudo npm i --save-dev typescript @types/express
+mkdir src
+cd src/
+cp git/activity0_app.ts app.ts
+sudo npm i typescript@latest -g
+touch tsconfig.json
+sudo tsc --init
+sudo npm install -g ts-node
+sudo ts-node app.ts 
+```
 ```java
 //TypeScript block
 import express, { Request, Response } from 'express';
@@ -42,4 +81,10 @@ console.log(`Example app listening at http://localhost:${port}`)
 
 });
 ```
-![TypeScript](images\TypeScript.png)
+![TypeScript](TypeScript.png)
+
+## Conclusion
+- Activity 0 purpose was to show how to install the proper tools needed to run a Javascript Web Application, those being NodeJS, Express, Visual Studio Code and TypeScript. The three demo programs that were executing:
+    - NodeJS Hello World Application
+    - Express Hello Express Application
+    - TypeScript Hello TypeScript Application
