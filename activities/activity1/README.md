@@ -7,7 +7,7 @@ This activity was based on learning how NodeJS is a JavaScript back-end server t
 - Controller - Acts as the middleman between model and view
 ## Environmental Variables
 
-![enviromentalVari](images\environmentalvari.png)
+![enviromentalVari](../activity1/images/environmentalvari.png)
 
 ## Database Initialization
 ![MySQLER](MySQLER.png)
