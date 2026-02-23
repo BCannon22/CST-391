@@ -160,7 +160,7 @@ erDiagram
     }
 ```
 
-## :: REST Endpoints
+## :zzz: REST Endpoints
 
 |Method|Endpoint|Description|
 |--|--|--|
@@ -169,7 +169,7 @@ erDiagram
 |PUT|drumsets/:id|Update a drum set|
 |DELETE|drumsets/:id|Delete a drum set|
 
-## API Example of API request
+## :notes: API Example of API request
 ```json
     GET /drumsets/:id=3
     Response
@@ -186,5 +186,5 @@ erDiagram
 
 ```
 
-## Conclusion
+## :memo: Conclusion
 In this version of the milestone, I expanded on the project by including the ER diagram for the basis of what the SQL database will look like in the future. I also included some REST endpoints that will be required for the web application to function correctly when users try to browser it. Allowing them to view drumsets and for admins of the server to update and delete drumsets. 
