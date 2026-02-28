@@ -194,4 +194,4 @@ erDiagram
 ```
 
 ## :memo: Conclusion
-    In this version of the milestone I created the basic backend functions for the API endpoints. The application can now successfully reach GET, POST, UPDATE, and DELETE endpoints and retrieve data from the SQL server. 
+In this version of the milestone I created the basic backend functions for the API endpoints. The application can now successfully reach GET, POST, UPDATE, and DELETE endpoints and retrieve data from the SQL server. 
