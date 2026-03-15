@@ -8,7 +8,7 @@
   },
   "include": [
     "src/**/*.ts"
-  ],
+, "src/app/components/list-drumsets/list-drumsets.component.spects"  ],
   "exclude": [
     "src/**/*.spec.ts"
   ]

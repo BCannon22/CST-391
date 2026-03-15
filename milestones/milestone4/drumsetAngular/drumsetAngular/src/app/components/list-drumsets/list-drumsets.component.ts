@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DrumsetsService } from '../services/drumsets.ts';
+import { DrumsetsService } from '../../services/drumsets.service';
 
 @Component({
   selector: 'app-drumsets',

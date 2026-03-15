@@ -2,7 +2,7 @@ export class Artist
 {
     private id: number = -1;
     private name: string = "";
-
+    
     constructor(id:number, name:string)
     {
         this.id = id;
@@ -24,6 +24,6 @@ export class Artist
     }
     set Name(artist:string)
     {
-        this.name = artist;
+        this.name = name;
     }
 }
