@@ -195,4 +195,4 @@ erDiagram
 ```
 
 ## :memo: Conclusion
-Fill In
+In this Milestone I updated the application to being able to use Angular frontend. I am still running into some issues with getting it to properly load from my database when display data. It is an issue with how it receiving information from the backend and should be solved by next milestone update. 
