@@ -9,6 +9,7 @@ import SearchAlbum from "./SearchAlbum";
 import NavBar from "./NavBar";
 import NewAlbum from "./NewAlbum";
 import OneAlbum from "./OneAlbum";
+import AboutThisSite from "./AboutThisSite";
 
 const App = (props) => {
   const [searchPhrase, setSearchPhrase] = useState('');

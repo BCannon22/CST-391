@@ -23,7 +23,6 @@ These were the commands used to install the correct packages needed for the appl
 
 - This shows the application accessing the controller to retrieve the GET api that allows angular to show the user the list of artists currently in the database.
 
-
 ![createalbum](createalbum.png)
 
 - This shows the application accessing the controller to retrieve the POST api that will allow the angular to take in user input then create a new album within our SQL database.
